@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("bilu.jpg"); /* ganti sesuai nama foto */
+  background-size: cover;          /* biar nutup layar */
+  background-position: center;     /* posisi tengah */
+  background-repeat: no-repeat;    /* ga ngulang */
+  min-height: 100vh;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.card {
+  background: #ffffff;
+  width: 380px;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+.card h2 {
+  margin-bottom: 8px;
+  font-size: 24px;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 25px;
+}
+
+form input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+}
+
+form input:focus {
+  outline: none;
+  border-color: #4a7cff;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background: #4a7cff;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #3a66e0;
+}
+
+.footer-text {
+  margin-top: 20px;
+  font-size: 13px;
+  color: #666;
+}
+
+.footer-text span {
+  color: #4a7cff;
+  cursor: pointer;
+}
